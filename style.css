@@ -1,0 +1,129 @@
+/*Font Family*/
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;60");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Akronim");
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background:#1b1b1b no-repeat;
+    background-size: cover;
+    font-weight: 100;
+    font-weight: bold;
+    font-family: "Sofia";
+    font-size: 25px;
+    overflow: hidden;
+    color:#ffffff;
+}
+
+.navbar{
+    display:grid;
+    grid-template-columns: repeat(5,800px 1fr 1fr 1fr 1fr);
+    margin-top: 25px;
+    grid-gap:22px;
+}
+
+li{
+    list-style: none;
+    font-family: "Akronim";
+}
+
+a{
+    text-decoration: none;
+    color:#FC6E20;
+}
+
+li:nth-child(1){
+    margin-left: 80px;
+}
+
+li:nth-child(2){
+    margin-right: 20px;
+}
+
+li:nth-child(3){
+    margin-right: 20px;
+}
+
+li:nth-child(4){
+    margin-right: 20px;
+}
+
+.nav-link{
+    padding: 5px 30px;
+    padding-top: 5px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+
+.nav-link:not(:first-of-type){
+    background-color: #ffdbcc;
+    transform: transform .3s;
+}
+
+.nav-link:not(:first-of-type):hover{
+    background-color: #fcf1da;
+    cursor:pointer;
+    transform:translateY(8px);
+}
+
+.main-section{
+    display:grid;
+    grid-template-columns: repeat(2,700px 1fr);
+    align-items: center;
+    margin-top: 30px;
+}
+
+.content-section{
+    margin-left: 30px;
+    margin-bottom: 100px;
+    color:#e8e8e8;
+}
+
+.content-section h3{
+    margin-top: -35px;
+}
+
+.content-section hr{
+    width:130px;
+    margin-left:0px;
+    margin-top:-10px;
+}
+
+.content-section .btn{
+    border:none;
+    outline:none;
+    padding:10px 40px;
+    background: #ffdbcc;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family:"akronim";
+    color:#fc6e20;
+    cursor: pointer;
+    transition: transform .3s;
+    -webkit-transition: transform .3s;
+    -moz-transition: transform .3s;
+    -ms-transition: transform .3s;
+    -o-transition: transform .3s;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.content-section .btn:hover{
+    transform:translateY(10px);
+    background: #fcf1da;
+}
+
+.image-section{
+    align-items: right;
+    margin-top: -100px;
+}
